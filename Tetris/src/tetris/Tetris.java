@@ -16,6 +16,9 @@ public class Tetris {
      */
     public static void main(String[] args) {
         int i;
+        int j;
+        
+        System.out.println("Ola Mundo!");
     }
     
 }
