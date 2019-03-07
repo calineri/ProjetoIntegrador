@@ -5,6 +5,9 @@
  */
 package tetris;
 
+import javax.swing.JFileChooser;
+import javax.swing.filechooser.FileNameExtensionFilter;
+
 /**
  *
  * @author celso.alineri
@@ -19,6 +22,12 @@ public class Tetris {
         int j;
         int k;
         System.out.println("Ola Mundo!");
+        
+        JFileChooser chooser = new JFileChooser();
+        chooser.setFileFilter(new FileNameExtensionFilter("Arquivos PDF (*.pdf)", "pdf"));
+        int retorno = chooser.showOpenDialog(null);
+        
+        
     }
     
 }
