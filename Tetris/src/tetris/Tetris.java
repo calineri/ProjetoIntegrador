@@ -64,6 +64,7 @@ public class Tetris {
         janela.pack();
         janela.setVisible(true);
         
+        
     }
     
 }
